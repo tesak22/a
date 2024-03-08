@@ -37,8 +37,39 @@ void sqrtt(int a) {
 
 
 
+// функції синуса і виходу
+void exitProgram()
+{
+    cout << "work completion" << endl;
+    exit(0);
+}
+
+float UpSin(float angleR)
+{
+    // функції потрібно задати кут в радіанах
+
+    return sin(angleR);
+}
+
+float M_PI = 3.1415926;
+
+
+
+
+
+
+
+
+
+
+
+
+
 void main()
 {
+
+    float angleR = angle * M_PI / 180;// переведення градуси в радіани
+
 
     int choice;
 
