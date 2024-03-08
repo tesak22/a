@@ -1,10 +1,10 @@
 #include <iostream>
 #include <math.h>
+
 using namespace std;
 
 int multiplication(int a, int b)
 {
-
 	return a * b;
 }
 int pow(int number, int power)
@@ -19,8 +19,6 @@ int pow(int number, int power)
 
 
 
-
-
 void division(int a,int b) {
     int result = a / b;
     cout << "Result of division " << a << " and " << b << " = " << result;
@@ -28,6 +26,8 @@ void division(int a,int b) {
 void sqrtt(int a) {
     cout << " Sqrt of number " <<a << " is equal " <<  sqrt(a);
 }
+
+
 
 void main()
 {
