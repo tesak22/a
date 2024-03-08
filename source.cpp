@@ -64,27 +64,27 @@ void main()
         {
         case 1:
             cin >> a >> b;
-
+            sum(a, b);
             break;
         case 2:
             cin >> a >> b;
-
+            sub(a, b);
             break;
         case 3:
             cin >> a >> b;
-
+            multiplication(a, b);
             break;
         case 4:
             cin >> a >> b;
-
+            division(a, b);
             break;
         case 5:
             cin >> a >> b;
-
+            pow(a, b);
             break;
         case 6:
             cin >> a;
-
+            sqrtt(a);
             break;
         case 7:
             cin >> a;
