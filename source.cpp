@@ -4,6 +4,20 @@ using namespace std;
 
 int multiplication(int a, int b)
 {
+
+	return a * b;
+}
+int pow(int number, int power)
+{
+	int result = number;
+	for (int i = 0; i < power - 1; i++)
+	{
+		result *= number;
+	}
+	return result;
+}
+
+
     return a * b;
 }
 int pow(int number, int power)
@@ -24,9 +38,10 @@ void division(int a,int b) {
 void sqrtt(int a) {
     cout << " Sqrt of number " <<a << " is equal " <<  sqrt(a);
 }
+
 void main()
 {
-<<<<<<< HEAD
+
     int choice;
 
     do 
@@ -93,8 +108,7 @@ void main()
         }
 
     }while(choice == 10)
-=======
+
     cout << "hello";
    
->>>>>>> 7edd0a972805e21f73de6b9a78fce308bc1edb97
 }
