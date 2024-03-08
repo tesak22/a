@@ -1,9 +1,16 @@
 #include <iostream>
-
+#include <math.h>
 using namespace std;
-
+void division(int a,int b) {
+    int result = a / b;
+    cout << "Result of division " << a << " and " << b << " = " << result;
+}
+void sqrtt(int a) {
+    cout << " Sqrt of number " <<a << " is equal " <<  sqrt(a);
+}
 void main()
 {
+<<<<<<< HEAD
     int choice;
 
     do 
@@ -70,4 +77,8 @@ void main()
         }
 
     }while(choice == 10)
+=======
+    cout << "hello";
+   
+>>>>>>> 7edd0a972805e21f73de6b9a78fce308bc1edb97
 }
