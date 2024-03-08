@@ -18,6 +18,14 @@ int pow(int number, int power)
 }
 
 
+int sum(int a, int b) {
+    return a + b;
+}
+
+int sub(int a, int b) {
+    return a - b;
+}
+
 
 void division(int a,int b) {
     int result = a / b;
